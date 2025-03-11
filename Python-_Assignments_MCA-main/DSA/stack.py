@@ -19,8 +19,8 @@ class Stack:
         for i in range(self.top+1):
             print(self.l[i])
 
-ob=Stack(4)
-ob.Push(2)
+ob=Stack(6)
+ob.Push(3)
 ob.Push(4)
 ob.Pop()
 ob.Traverse()
