@@ -33,8 +33,8 @@ class circular_queue:
             i = (i + 1) % self.size
         
 ob=circular_queue(4)
-ob.insertion(4)
-ob.insertion(8)
+ob.insertion(5)
+ob.insertion(10)
 ob.deletion()
 ob.traverse()
         
